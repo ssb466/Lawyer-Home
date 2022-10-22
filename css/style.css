@@ -1,0 +1,700 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	padding: 15px 0px;
+	background: #fff;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #28377e;
+  letter-spacing: 2px;
+  margin: 0px 0px 0px 20px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+	color: #f2622c;
+}
+.banner-section{
+	width: 100%;
+	padding: 140px 0px 80px;
+	background: url("../images/slider.png") center top no-repeat;
+	background-size: cover;
+}
+.banner-section h1{
+	font-size: 52px;
+	line-height: 62px;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+.arrow{
+	width: 100%;
+	padding: 180px 0px 0px;
+	text-align: center;
+}
+.arrow .fa{
+	color: #fff;
+	font-size: 35px;
+}
+.about-us{
+	width: 100%;
+	padding: 80px 0px;
+}
+.about-inner{
+	width: 100%;
+	margin: 50px 0px 0px;
+}
+.about-us .about-inner .title{
+	width: 100%;
+	padding: 0px 0px 20px;
+}
+.about-us .about-inner .title .divider{
+	width: 80px;
+	height: 3px;
+	background: #f2622c;
+	margin: 0px 0px 15px;
+}
+.about-us .about-inner .title h2{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #28377e; 
+	text-transform: uppercase;
+}
+.about-us .about-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #b0b0b1;
+}
+.what-do{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/dobg.png") center top no-repeat;
+	background-size: cover;
+}
+
+.what-do .title{
+	width: 100%;
+	padding: 0px 0px 100px;
+}
+.what-do .title .divider{
+	width: 80px;
+	height: 3px;
+	background: #f2622c;
+	margin: 0px auto 15px;
+}
+.what-do .title h2{
+	font-size: 42px;
+	line-height: 52x;
+	font-weight: 700;
+	color: #28377e; 
+	text-transform: uppercase;
+	text-align: center;
+}
+.what-do .inner-do .img-fluid{
+	width: 100%;
+}
+.inner-do{
+	width: 100%;
+	position: relative;
+}
+.inner-content {
+	text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 0%;
+  transform: translate(-0%, 0%);
+}
+.inner-content h5{
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 1px;
+}
+.long-arrow {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  transform: translate(0%, 0%);
+}
+.attorney{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/atbg.png") center top no-repeat;
+	background-size: cover;
+}
+
+.attorney .title{
+	width: 100%;
+	padding: 110px 0px 20px;
+}
+.attorney .title .divider{
+	width: 80px;
+	height: 3px;
+	background: #f2622c;
+	margin: 0px 0px 15px;
+}
+.attorney .title h2{
+	font-size: 42px;
+	line-height: 52x;
+	font-weight: 700;
+	color: #fff; 
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.attorney p{
+	width: 60%;
+	font-size: 14px;
+	line-height: 24px;
+	color: #929dcf;
+}
+.attorney .btn-link{
+	padding: 0px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 600;
+	color:#f2622c ;
+	text-transform: uppercase;
+}
+.attorney .btn-link:hover{
+	color: #fff;
+}
+
+.attorney .inner-do .img-fluid{
+	width: 100%;
+}
+.attorney .inner-do{
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+}
+.attorney .inner-do .inner-content{
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 80%;
+  left: 0%;
+  transform: translate(10%, 0%);
+}
+.attorney .inner-do .inner-content h5{
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 1px;
+}
+.language{
+	width: 100%;
+	padding: 80px 0px;
+}
+.language .title{
+	width: 100%;
+	padding: 0px 0px 80px;
+}
+.language .title .divider{
+	width: 80px;
+	height: 3px;
+	background: #f2622c;
+	margin: 0px auto 15px;
+}
+.language .title h2{
+	font-size: 42px;
+	line-height: 52x;
+	font-weight: 700;
+	color: #28377e; 
+	text-transform: uppercase;
+	text-align:center;
+}
+.language h5{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 700;
+	color: #28377e;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0px 0px 15px;
+}
+.language p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #b0b0b1;
+}
+.language .btn-link{
+	padding: 0px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 600;
+	color:#f2622c ;
+	text-transform: uppercase;
+}
+.language .btn-link:hover{
+	color:  #28377e;
+}
+ .contact-us{
+ 	width: 100%;
+ 	padding: 80px 0px;
+ 	background: #28377e;
+ }
+.contact-us .title{
+	width: 100%;
+	padding: 0px 0px 80px;
+}
+.contact-us .title .divider{
+	width: 80px;
+	height: 3px;
+	background: #f2622c;
+	margin: 0px auto 15px;
+}
+.contact-us .title h2 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.main-form{
+	width: 100%;
+}
+.main-from .btn-info {
+    color: #fff;
+    background: #f2622c;
+    text-transform: uppercase;
+    padding: 8px 60px;
+    border-radius: 0px;
+    margin-top: 20px;
+}
+.main-form .form-control{
+	width: 100%;
+	padding: 12px 0px;
+	background: transparent;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid;
+	border-radius: 0px;
+	font-size: 14px;
+	text-transform: capitalize;
+	color: #fff!important;
+	font-weight: 500;
+}
+.main-form input::placeholder, .main-form textarea::placeholder{
+	color: #fff!important;
+}
+.main-form .form-control:focus {
+  color: #000;
+  background-color: transparent;
+  border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid;
+  outline: 0;
+  box-shadow: 0 0 0 .0rem rgb(13,110,253,.25);
+}
+.footer {
+  width: 100%;
+  padding: 30px 0px;
+  background: #0c1234;
+}
+
+.footer p {
+  color: #616ca8;
+  margin: 0px;
+}
+.footer span {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  transition: 1s;
+  margin: 0px;
+}
+
+.footer span:hover {
+  color: #1f4f87;
+}
+.footer span:focus {
+  color: #1f4f87;
+}
+
+.icon {
+  width: 100%;
+}
+
+.icon ul {
+  text-align: right;
+}
+
+.icon ul li {
+  list-style: none;
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+.icon ul li a {
+  font-size: 16px;
+  color: #b1b7dd;
+  transition: 1s;
+}
+
+.icon ul li a:hover {
+  color: #1f4f87;
+}
+.icon ul li a:focus {
+  color: #1f4f87;
+}
+
+
+/******responsive section start******/
+
+@media (min-width: 280px) and (max-width: 319px) {
+  
+ html,body{
+		overflow-x: hidden!important;
+	}
+  
+	.header .navbar-expand-lg .navbar-nav .nav-item{
+		text-align: center;
+	}
+	.header .navbar-expand-lg .navbar-nav{
+		margin-top: 20px;
+	}
+	.banner-section {
+	    padding: 100px 0px 50px 0px;
+	 }
+	.banner-section h1 {
+	    font-size: 25px;
+	    line-height: 35px;
+	}
+	.arrow{
+		padding: 160px 0px 0px 0px;
+	}
+	.about-us .about-inner {
+	    padding-left: 0px;
+	}
+	.about-us {
+	    padding: 40px 0px;
+	    text-align: center;
+	}
+	.about-us .about-inner .title .divider {
+	 	margin: 0 auto;
+	}
+	.about-us .about-inner .title h2 {
+	    font-size: 25px;
+	    line-height: 35px;
+	    margin-top: 15px;
+	}
+	.about-inner {
+	    margin: 0px 0px 0px;
+	}
+	.what-do {
+	    padding: 40px 0px 30px 0px;
+	}
+	.what-do .title h2{
+		 font-size: 25px;
+	    line-height: 35px;
+	}
+	.what-do .title {
+	    padding: 0px 0px 20px;
+	}
+	.inner-do {
+	    margin: 10px 0px;
+	}
+	.attorney .title {
+	    padding: 0px 0px 0px;
+	}
+	.attorney {
+	    padding: 40px 0px;  
+	}
+	.attorney .title h2{
+		 font-size: 25px;
+	    line-height: 35px;
+	    text-align: left;
+	    margin-top: 10px;
+	}
+	.attorney .title .divider {
+	 
+	}
+	.attorney p{
+		width: 100%;
+		text-align: left;
+	}
+	.attorney .btn-link{
+		margin-bottom: 20px;
+	}
+	.language{
+		padding: 40px 0px 0px 0px;
+		text-align: center;
+	}
+	.language .title h2{
+		 font-size: 25px;
+	    line-height: 35px;
+	}
+	.language .title {
+	    padding: 0px 0px 20px;
+	}
+	.language h5 {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: ;
+	}
+	.language p{
+		width: 100%;
+	}
+	.language .btn-link{
+		margin-bottom: 40px;
+	}
+	.contact-us{
+		padding: 40px 0px;
+	}
+	.contact-us .title {
+	    padding: 0px 0px 20px;
+	}
+	.contact-us .title h2{
+		font-size: 25px;
+	    line-height: 35px;
+	}
+  
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	html,body{
+		overflow-x: hidden!important;
+	}
+  
+	.header .navbar-expand-lg .navbar-nav .nav-item{
+		text-align: center;
+	}
+	.header .navbar-expand-lg .navbar-nav{
+		margin-top: 20px;
+	}
+	.banner-section {
+	    padding: 100px 0px 50px 0px;
+	 }
+	.banner-section h1 {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+	.arrow{
+		padding: 160px 0px 0px 0px;
+	}
+	.about-us .about-inner {
+	    padding-left: 0px;
+	}
+	.about-us {
+	    padding: 40px 0px;
+	    text-align: center;
+	}
+	.about-us .about-inner .title .divider {
+	 	margin: 0 auto;
+	}
+	.about-us .about-inner .title h2 {
+	    font-size: 25px;
+	    line-height: 35px;
+	    margin-top: 15px;
+	}
+	.about-inner {
+	    margin: 0px 0px 0px;
+	}
+	.what-do {
+	    padding: 40px 0px 30px 0px;
+	}
+	.what-do .title h2{
+		 font-size: 25px;
+	    line-height: 35px;
+	}
+	.what-do .title {
+	    padding: 0px 0px 20px;
+	}
+	.inner-do {
+	    margin: 10px 0px;
+	}
+	.attorney .title {
+	    padding: 0px 0px 0px;
+	}
+	.attorney {
+	    padding: 40px 0px;  
+	}
+	.attorney .title h2{
+		 font-size: 25px;
+	    line-height: 35px;
+	    text-align: left;
+	    margin-top: 10px;
+	}
+	.attorney .title .divider {
+	 
+	}
+	.attorney p{
+		width: 100%;
+		text-align: left;
+	}
+	.attorney .btn-link{
+		margin-bottom: 20px;
+	}
+	.language{
+		padding: 40px 0px 0px 0px;
+		text-align: center;
+	}
+	.language .title h2{
+		 font-size: 25px;
+	    line-height: 35px;
+	}
+	.language .title {
+	    padding: 0px 0px 20px;
+	}
+	.language h5 {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: ;
+	}
+	.language p{
+		width: 100%;
+	}
+	.language .btn-link{
+		margin-bottom: 40px;
+	}
+	.contact-us{
+		padding: 40px 0px;
+	}
+	.contact-us .title {
+	    padding: 0px 0px 20px;
+	}
+	.contact-us .title h2{
+		font-size: 25px;
+	    line-height: 35px;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  html,body{
+		overflow-x: hidden!important;
+	}
+  
+	.header .navbar-expand-lg .navbar-nav .nav-item{
+		text-align: center;
+	}
+	.header .navbar-expand-lg .navbar-nav{
+		margin-top: 20px;
+	}
+	.banner-section {
+	    padding: 100px 0px 50px 0px;
+	 }
+	.banner-section h1 {
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+	.arrow{
+		padding: 160px 0px 0px 0px;
+	}
+	.about-us .about-inner {
+	    padding-left: 0px;
+	}
+	.about-us {
+	    padding: 40px 0px;
+	    text-align: center;
+	}
+	.about-us .about-inner .title .divider {
+	 	margin: 0 auto;
+	}
+	.about-us .about-inner .title h2 {
+	    font-size: 30px;
+	    line-height: 40px;
+	    margin-top: 15px;
+	}
+	.about-inner {
+	    margin: 0px 0px 0px;
+	}
+	.what-do {
+	    padding: 40px 0px 30px 0px;
+	}
+	.what-do .title h2{
+		 font-size: 30px;
+	    line-height: 40px;
+	}
+	.what-do .title {
+	    padding: 0px 0px 20px;
+	}
+	.inner-do {
+	    margin: 10px 0px;
+	}
+	.attorney .title {
+	    padding: 0px 0px 0px;
+	}
+	.attorney {
+	    padding: 40px 0px;  
+	}
+	.attorney .title h2{
+		 font-size: 30px;
+	    line-height: 40px;
+	    text-align: left;
+	    margin-top: 10px;
+	}
+	.attorney .title .divider {
+	 
+	}
+	.attorney p{
+		width: 100%;
+		text-align: left;
+	}
+	.attorney .btn-link{
+		margin-bottom: 20px;
+	}
+	.language{
+		padding: 40px 0px 0px 0px;
+		text-align: center;
+	}
+	.language .title h2{
+		 font-size: 30px;
+	    line-height: 40px;
+	}
+	.language .title {
+	    padding: 0px 0px 20px;
+	}
+	.language h5 {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: ;
+	}
+	.language p{
+		width: 100%;
+	}
+	.language .btn-link{
+		margin-bottom: 40px;
+	}
+	.contact-us{
+		padding: 40px 0px;
+	}
+	.contact-us .title {
+	    padding: 0px 0px 20px;
+	}
+	.contact-us .title h2{
+		font-size: 30px;
+	    line-height: 40px;
+	}
+  
+}
+
+
